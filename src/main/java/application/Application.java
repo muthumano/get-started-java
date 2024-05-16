@@ -15,6 +15,6 @@
  *******************************************************************************/ 
 package application;
 
-public class Application2 {
-
+public class Application {
+ System.out.println("commmm");
 }

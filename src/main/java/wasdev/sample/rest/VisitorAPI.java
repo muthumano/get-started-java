@@ -18,13 +18,13 @@ package wasdev.sample.rest;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.ws.rs.Application2Path;
+import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.Application2;
+import javax.ws.rs.core.Application;
 
 import com.google.gson.Gson;
 
@@ -32,9 +32,9 @@ import wasdev.sample.Visitor;
 import wasdev.sample.store.VisitorStore;
 import wasdev.sample.store.VisitorStoreFactory;
 
-@Application2Path("api")
+@ApplicationPath("api")
 @Path("/visitors")
-public class VisitorAPI extends Application2 {
+public class VisitorAPI extends Application {
 	
 	//Our database store
 	VisitorStore store = VisitorStoreFactory.getInstance();

@@ -15,6 +15,6 @@
  *******************************************************************************/ 
 package test;
 
-public class TestApplication2 {
+public class TestApplication {
 
 }

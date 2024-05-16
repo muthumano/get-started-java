@@ -84,7 +84,7 @@ IBM® Eclipse Tools for Bluemix provides plug-ins that can be installed into an 
 
 3. Create a Liberty server definition:
   - In the `Servers` view right-click -> `New` -> `Server`
-  - Select `IBM` -> `WebSphere Application2 Server Liberty`
+  - Select `IBM` -> `WebSphere Application Server Liberty`
   - Choose `Install from an archive or a repository`
   - Enter a destination path (/Users/username/liberty)
   - Choose `WAS Liberty with Java EE 7 Web Profile`
